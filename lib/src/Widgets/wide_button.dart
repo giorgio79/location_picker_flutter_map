@@ -28,16 +28,19 @@ class WideButton extends StatelessWidget {
         child: ElevatedButton(
           style: style,
           onPressed: onPressed,
-          child: 
-          Row (
+          child: Row(
             children: [
-              Icon(Icons.location_on),
-              SizedBox(width:10),
-          Text(
-            text,
-            style: TextStyle(color: textColor),
-          ),]
+              Icon(
+                Icons.location_on,
+                color: Colors.black,
               ),
+              SizedBox(width: 10),
+              Text(
+                text,
+                style: TextStyle(color: textColor),
+              ),
+            ],
+          ),
         ),
       ),
     );
