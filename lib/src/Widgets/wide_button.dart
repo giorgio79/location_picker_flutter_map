@@ -22,7 +22,7 @@ class WideButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return SizedBox(
       height: height,
-      width: 200,
+      width: 180,
       child: Padding(
         padding: EdgeInsets.symmetric(horizontal: padding),
         child: ElevatedButton(
